@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+:root {
+  --tomato-color: #ff433d;
+  --yellow-color: #ffb347;
+  --megenta-color: rgba(168, 2, 168, 0.897);
+  --lime-color: rgba(8, 248, 80, 0.932);
+  --light-orange: #ff6215;
+  --poppins: "Poppins", sans-serif;
+  --bungee: "Bungee", cursive;
+  --lobster: "Lobster", cursive;
+  --pacifico: "Pacifico", cursive;
+  --montserrat: "Montserrat";
+}
+/*              Шапка             */
+
+.navbar {
+  background-color: #fdfdfda2;
+}
+.navbar-brand {
+  padding-left: 30px;
+  font-family: var(--lobster);
+  font-size: 2rem;
+  color: rgba(233, 217, 1, 0.897);
+}
+
+.nav-item {
+  padding: 0em 1.3em;
+}
+.nav-link {
+  font-family: var(--poppins);
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+.nav-link:hover {
+  color: var(--light-orange);
+}
+
+.heading .h1 {
+  font-family: var(--montserrat);
+  font-size: 8vmin;
+  padding-top: 28vmin;
+  color: rgba(229, 255, 0, 0.897);
+}
+
+.heading .h1 + span {
+  color: var(--yellow-color);
+}
+
+.heading .p {
+  padding: 0em 13vmin;
+  color: rgb(223, 223, 223);
+  font-size: 3.5vmin;
+  font-family: var(--pacifico);
+}
+
+.heading > .btn1,
+.btn2 {
+  padding: 3vmin 7vmin;
+  margin: 2vmin 2.5vmin;
+  background: #002f49;
+  font-size: 2.5vmin;
+  font-family: var(--poppins);
+  color: white;
+}
+
+.heading > .btn2 {
+  background-color: var(--tomato-color);
+  border: 0px;
+  color: white;
+}
+.heading > .btn1:hover,
+.btn2:hover {
+  border: 1px solid tomato;
+}
+
+.heading {
+  margin-bottom: 45vmin;
+}
+
+#Video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -999;
+}
+/*/              Шапка             /*/
+
