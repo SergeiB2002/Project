@@ -136,6 +136,21 @@ body{
   position: center;
 }
 
+.PartnersSliderWrapper{
+  margin: 50px 0 5px 0;
+}
+
+.SupportPic{
+  border: solid 2px rgb(80, 80, 80);
+  border-radius: 5px;
+  margin:0 6px;
+}
+
+.SupportPic > img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 992px){
   .dropdown-menu{
       background-color: #f14d34;
