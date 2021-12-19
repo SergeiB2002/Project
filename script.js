@@ -36,6 +36,10 @@ $(document).ready(function () {
         showDropdown('#navbarDropdown-1','#list-1');
         showDropdown('#navbarDropdown-2','#list-2');
     });
+  $(".navbar-toggler").click(event => {
+        hideDropdown('#navbarDropdown-1','#list-1');
+        hideDropdown('#navbarDropdown-2','#list-2');
+    });
   
   $(".PartnersSlider1").slick({
     adaptiveHeight: false,
@@ -47,7 +51,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     centerMode: true,
-    centerPadding:"20%",
+    centerPadding:"16%",
     responsive: [
         {
           breakpoint: 768,
@@ -69,7 +73,7 @@ $(".PartnersSlider2").slick({
     autoplay: true,
     autoplaySpeed: 2000,
     centerMode: true,
-    centerPadding:"40%",
+    centerPadding:"33%",
     responsive: [
         {
           breakpoint: 768,
