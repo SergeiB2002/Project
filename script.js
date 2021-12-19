@@ -52,7 +52,7 @@ $(document).ready(function () {
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 6,
             centerPadding:"10%",
           }
         },
@@ -74,7 +74,7 @@ $(".PartnersSlider2").slick({
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 6,
             centerPadding:"2%",
           }
         },
