@@ -28,6 +28,15 @@ function hideDropdown(navbarDropdown, list){
 }
 
 $(document).ready(function () {
+  moveNavbar();
+    $(window).resize((event)=>{
+        moveNavbar();
+    });
+  $(".navbar-toggler").click(event => {
+        showDropdown('#navbarDropdown-1','#list-1');
+        showDropdown('#navbarDropdown-2','#list-2');
+    });
+  
   $(".PartnersSlider1").slick({
     adaptiveHeight: false,
     mobileFirst: true,
