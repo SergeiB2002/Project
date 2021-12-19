@@ -3,14 +3,18 @@ body{
 }
 
 .video-back {
-  top: 50%;
   width: 100%;
-  transform: translate(-50%, -50%);
-  opacity: 0.15;
-  left: 50%;
-  z-index: -1;
-  position: absolute;
-  height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    filter: blur(1px);
+    transform: scale(2.04);
 }
 
 .dropdown-menu{
