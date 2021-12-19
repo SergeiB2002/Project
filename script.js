@@ -4,7 +4,6 @@ function moveNavbar(){
   if(windowInnerWidth <= 993) {
       navbar.addClass("fixed-bottom");
       navbar.addClass("bg-dark");
-      $(".video-bck").remove();
   }
   if(windowInnerWidth >= 993){
       navbar.removeClass("fixed-bottom");
