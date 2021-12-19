@@ -1,0 +1,143 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+.video-back {
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0.15;
+  left: 50%;
+  z-index: -1;
+  position: absolute;
+  height: auto;
+}
+
+.dropdown-menu{
+  background-color: #292b2c;
+}
+
+.btn-tariff{
+  color: #fff;
+  border-color: #f14d34;
+  width: 220px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: background 300ms;
+  padding: 20px 22px;
+}
+
+.btn-tariff:hover{
+  color: #fff;
+  background: #f14d34;
+  border-color: #f14d34;
+}
+
+.header-background{
+  position: absolute;
+  z-index: -2;
+  background: #040613;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.achievement-tab {
+  border-left: 3px solid #f14d34;
+}
+
+.extra-text{
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: rgba(255,255,255,.7);
+}
+
+.achievement-tab-title-main{
+  font-size: 48px;
+}
+
+.achievement-tab-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 12px;
+  position: relative;
+}
+
+.text-about-service{
+  font-size: 14px;
+}
+
+.text-about-main{
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.nav-link{
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.dev-title{
+  font-weight: bold;
+  font-size: 18px;
+  color: #050c33;
+  line-height: 1.22;
+  margin-bottom: 15px;
+}
+
+.extra-text-zero{
+  margin-top: 0;
+}
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+.close:hover{
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+.nav-link{
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-effect{
+  border-bottom: 3px solid #f14d34;
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid #f14d34;
+  transition: border-color 200ms;
+}
+
+.navbar-region{
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-data{
+  z-index: 10;
+  color: white;
+  position: center;
+}
+
+@media screen and (min-width: 992px){
+  .dropdown-menu{
+      background-color: #f14d34;
+  }
+}
