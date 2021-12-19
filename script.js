@@ -28,7 +28,7 @@ function hideDropdown(navbarDropdown, list){
 }
 
 $(document).ready(function () {
-  $("#PartnersSlider1").slick({
+  $(".PartnersSlider1").slick({
     adaptiveHeight: false,
     mobileFirst: true,
     dots: false,
@@ -50,7 +50,7 @@ $(document).ready(function () {
      ]
 }
 );
-$("#PartnersSlider2").slick({
+$(".PartnersSlider2").slick({
     adaptiveHeight: false,
     mobileFirst: true,
     dots: false,
