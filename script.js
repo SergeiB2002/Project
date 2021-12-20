@@ -84,11 +84,11 @@ $(".PartnersSlider2").slick({
      ]
 }); 
   
-  $("#check").change(function () {
+$("#check").change(function () {
   if ($("#check").is(":checked")) {
-      $("#submitButton").prop("disabled", false);
+      $("#Button").prop("disabled", false);
   } else {
-      $("#submitButton").prop("disabled", true);
+      $("#Button").prop("disabled", true);
   }
 });
 
@@ -106,7 +106,7 @@ const ajaxSend = (formData) => {
           alert("Сообщение отправлено");
           data.forEach((element) => { element.value = ""; });
           $("#check").prop("checked", false);
-          $("#submitButton").prop("disabled", true);
+          $("#Button").prop("disabled", true);
           localStorage.clear();
       })
       .catch((error) => {alert(error);})
@@ -114,7 +114,7 @@ const ajaxSend = (formData) => {
 
 const forms = $("#Form");
 for (let i = 0; i < forms.length; i++) {
-  $("#submitButton").click(function (e) {
+  $("#Button").click(function (e) {
       e.preventDefault();
 
       let formData = new FormData(forms[i]);
