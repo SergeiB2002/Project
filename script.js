@@ -40,6 +40,24 @@ $(document).ready(function () {
         hideDropdown('#navbarDropdown-2','#list-2');
     });
   
+ $(".reviews-slide").slick({
+    nextArrow: '<button id="next" type="button" class="btn btn-juliet"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>',
+    prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><i class="fas fa-chevron-left" aria-hidden="true"></i> </button>',
+    appendArrows: $(".arrows-block"),
+    adaptiveHeight: true,
+    dots: false,
+    infinite: true,
+    mobileFirst: true,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    fade: true,
+});
+$(".reviews-slide").on("afterChange", function() {
+    let dataId = parseInt($(".slick-current").attr("data-slick-index"));    
+    console.log(dataId);
+    $(".current").html("0"+(dataId+=1))
+});
+  
   $(".PartnersSlider1").slick({
     adaptiveHeight: false,
     mobileFirst: true,
