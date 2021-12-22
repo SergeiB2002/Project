@@ -334,7 +334,7 @@ body{
 
 .competencies {
   padding: 100px 0;
-  font-family: Montserrat;
+  font-family: "Montserrat";
 }
 div{
   display: block;
@@ -424,7 +424,7 @@ div{
     padding: 350px 0 150px;
     position: relative;
     background: linear-gradient(270deg,rgba(4,6,19,1), rgba(29, 31, 44, 0.3) 65.71%),#040613;
-    font-family: Montserrat;
+    font-family:"Montserrat";
 }
 .experience .container {
   position: relative;
