@@ -565,10 +565,6 @@ div{
   .price-block:hover{
       transform: scale(1.1);
   }
-
-  .price-wrapper:before{
-      background-size: 75%;
-  }
 }
 
 @media screen and (min-width: 1000px){
