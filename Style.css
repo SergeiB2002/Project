@@ -507,7 +507,7 @@ div{
   position: relative;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
-  border: solid 2px #e5e5e5;
+  border: solid 2px #acacac;
 }
 .price-block-wrapper:nth-of-type(2n) .price-block:hover,
 .price-block:hover{
