@@ -36,6 +36,11 @@ $(document).ready(function () {
         showDropdown('#navbarDropdown-2','#list-2');
     });
   
+  $(".navbar-toggler").click(event => {
+        hideDropdown('#navbarDropdown-1','#list-1');
+        hideDropdown('#navbarDropdown-2','#list-2');
+    });
+  
  $(".reviews-slide").slick({
     nextArrow: '<button id="next" type="button" class="btn btn-juliet"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>',
     prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><i class="fas fa-chevron-left" aria-hidden="true"></i> </button>',
